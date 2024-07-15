@@ -55,7 +55,6 @@ def save_to_csv(projects, filename):
 
 def main():
     projects = scrape_projects()
-    print(projects)
     save_to_csv(projects, 'projects.csv')
     print("Data has been saved to projects.csv")
 
